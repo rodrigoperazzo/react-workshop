@@ -16,13 +16,12 @@ p {
 .card {
   background: #f86b03;
   margin-bottom: 30px;
-  min-height: 185px;
+  min-height: 165px;
   padding: 20px;
   width: 100%;
 }
 
 .card__photo {
-  border: 5px solid white;
   border-radius: 50%;
   height: 110px;
   display: block;
@@ -31,6 +30,10 @@ p {
 .card__info {
   font-size: 12px;
 }
+
+ .card__info-item {
+   white-space: nowrap;
+ }
 
 @media (max-width: 767px) {
   .container {
